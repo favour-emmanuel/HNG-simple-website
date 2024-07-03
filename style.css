@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ededed;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #262626;
+  padding: 1.4rem 1.2rem;
+  border-bottom: 1px solid #c5cbc37e;
+  text-align: center;
+  color: rgb(14, 213, 134);
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 3rem;
+  margin: 2rem 4rem;
+}
+
+.info img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.profile {
+  background-color: rgb(154, 244, 214);
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.profile h2 {
+  color: #053891;
+  font-size: 26px;
+}
+
+.profile p {
+  margin: 1rem 0;
+  font-size: 17px;
+}
+
+.profile label {
+  font-weight: 500;
+  color: #282827;
+}
+
+.links {
+  padding: 20px 25px;
+  margin: 20px 0;
+  background-color: rgb(242, 177, 200);
+  border-radius: 6px;
+}
+
+.links h2 {
+  color: #01091d;
+}
+
+.link-item li {
+  list-style: disc;
+  padding: 0.88rem 0;
+  font-weight: 400;
+}
+
+.link-item a {
+  color: rgb(44, 44, 44);
+}
+
+.goals {
+  background-color: rgb(10, 143, 128);
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.goals h2 {
+  font-size: 26px;
+  color: white;
+}
+
+.goal-list {
+  padding: 1rem 0;
+}
+
+.goal-list li {
+  list-style: circle;
+  padding: 1.2rem 0;
+  color: whitesmoke;
+}
+
+.links h2 {
+  margin: 0.48rem 0;
+}
+
+.link-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.goals-link a {
+  color: #0d0d0d;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.165);
+}
+
+footer h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #262626;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1.5rem;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 1.4rem 1.6rem;
+  }
+}
