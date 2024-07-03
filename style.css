@@ -14,6 +14,7 @@ body {
 a {
   text-decoration: none;
 }
+
 li {
   list-style: none;
 }
@@ -72,17 +73,23 @@ header h1 {
 }
 
 .links h2 {
-  color: #01091d;
+  color: #cd05af;
 }
 
 .link-item li {
   list-style: disc;
   padding: 0.88rem 0;
   font-weight: 400;
+  color: #ac04a7;
 }
 
 .link-item a {
-  color: rgb(44, 44, 44);
+  color: #ac04a7;
+}
+
+.link-item a:hover {
+  color: #da2967;
+  text-decoration: underline;
 }
 
 .goals {
@@ -122,7 +129,7 @@ header h1 {
 footer {
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   padding: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.165);
 }
@@ -147,6 +154,6 @@ footer h3 {
 
 @media only screen and (min-width: 768px) {
   header {
-    padding: 1.4rem 1.6rem;
+    padding: 1.4rem 1.4rem;
   }
 }
